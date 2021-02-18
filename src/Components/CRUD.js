@@ -58,6 +58,7 @@ function CRUD() {
   
     const peticionPost=async()=>{
       const vacuna={
+        id:frameworkSeleccionado.id,
         nombre:frameworkSeleccionado.nombre,
         dosis_pfizer:frameworkSeleccionado.dosis_pfizer,
         dosis_moderna:frameworkSeleccionado.dosis_moderna,
@@ -186,6 +187,10 @@ function CRUD() {
         <ModalHeader>Insertar Vacunas</ModalHeader>
         <ModalBody>
           <div className="form-group">
+            <label>ID: </label>
+            <br />
+            <input type="text" className="form-control" name="id" onChange={handleChange}/>
+            <br />
             <label>Nombre: </label>
             <br />
             <input type="text" className="form-control" name="nombre" onChange={handleChange}/>
