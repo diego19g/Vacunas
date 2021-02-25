@@ -139,7 +139,7 @@ function CRUD() {
   <br />
         <button className="btn btn-success" onClick={()=>abrirCerrarModalInsertar()}>Insertar</button>
         <br /><br />
-      <table className="table table-striped">
+      <table className="table table-striped" id="comunidades">
         <thead>
           <tr>
             <th>ID</th>

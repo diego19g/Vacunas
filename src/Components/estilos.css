@@ -1,4 +1,29 @@
 .tabla{
     text-align: center;
-    border: 3px solid black;
+    border: 3px solid black; 
+    margin: auto;   
+    width: 100%;
+}
+.tabla th{
+    border: 1px solid black;
+}
+.tabla td{
+    font-weight: bold;
+    border: 1px solid black;
+    color: rgb(0, 132, 255);
+}
+.tabla td:hover{
+    background-color: cadetblue;
+    color: white;
+}
+#comunidades tr:hover{
+    background-color: cadetblue;
+    color: white;
+}
+#porcentajes td{
+    font-weight: bold;
+    color: rgb(3, 148, 58);
+}
+#porcentajes td:hover{
+    color: white;
 }
